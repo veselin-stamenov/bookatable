@@ -1,0 +1,80 @@
+<html>
+<head>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+		<link rel="stylesheet" href="css/star.less" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+<link href="featherlight-1.7.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header>
+<div class="title-container background_content">
+<div class="darker-overlay">
+<h1 class="single-rest-title">Q-Ftetaria</h1>
+</div>
+</div>
+
+
+</header>
+
+<body>
+<div class="container">
+<div class="col-md-3"><h2>Рейтинг</h2><br/><div class="star-rating">
+  <fieldset>
+    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Outstanding">5 stars</label>
+    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Very Good">4 stars</label>
+    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Good">3 stars</label>
+    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Poor">2 stars</label>
+    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Very Poor">1 star</label>
+  </fieldset>
+</div></div>
+<div class="col-md-3"><h2>Кухни</h2><br/>Интернационална</div>
+<div class="col-md-3"><h2>Приема резервации</h2><br/>Пон - Нед: 12:00 - 00:00 </div>
+</div>
+
+<div class="rating"></div>
+<div class="text-content container"> 
+                <div class="inner contact">
+                    <!-- Form Area -->
+                    <div class="contact-form">
+                        <!-- Form -->
+                        <form id="contact-us" method="post" action="reserve.php">
+                            <!-- Left Inputs -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-6 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="Име" />
+                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Фамилия" />
+                                                <input type="tel" name="phone" id="state" required="required" class="form" placeholder="Телефон" />
+                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Дата и Час" />
+                                            </div>
+
+                                            <div class="col-xs-6 ">
+                                                <!-- Send Button -->
+                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Reserve</button> 
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Clear -->
+                            <div class="clear"></div>
+                        </form>
+                    </div><!-- End Contact Form Area -->
+                </div><!-- End Inner -->
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.4943048949644!2d23.320336115678714!3d42.69325322198652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa856d0abdb943%3A0x46faf1adf8e6306f!2zUS3RhNGC0LXRgtCw0YDQuNGP!5e0!3m2!1sbg!2sbg!4v1495888881079" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+       
+</body>
+</html>
